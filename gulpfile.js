@@ -10,7 +10,7 @@ const cssOutput = './dev/css';
 const cssInput = './dev/css/**/*.css';
 const htmlInput = './dev/*.html';
 const dist = './dist';
-const inputWatch = ['./dev/sass/partials/*.{scss,sass}', htmlInput];
+const inputWatch = ['./dev/sass/**/*.{scss,sass}', htmlInput];
 let sassOptions = {
   errLogToConsole: true,
   outputStyle: 'expanded'
