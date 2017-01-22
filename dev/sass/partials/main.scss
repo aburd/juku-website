@@ -1370,7 +1370,16 @@ $font-dark: $black;
 
   .about-content {
       color: #999999;
-      padding: 21px 0 9px;
+  }
+
+  .about-gallery {
+    margin: 20px 0;
+  }
+
+  @media screen and (min-width: 750px) {
+    .about-gallery {
+      margin-top: 41px
+    }
   }
 
   .about-gallery-posts {
