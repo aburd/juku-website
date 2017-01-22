@@ -2,7 +2,7 @@
     "use strict";
 
         //Activated Testimonial Carousel
-        
+
         $('.testimonial-active').owlCarousel({
             items: 3,
             margin: 30,
@@ -25,7 +25,7 @@
         });
 
         //Activated Clients Logo Carousel
-        
+
         $('.clients-active').owlCarousel({
             items: 7,
             margin: 95,
@@ -48,7 +48,7 @@
         });
 
         //Activated Gallery Photos Carousel
-        
+
         $('.gallery-wrap').owlCarousel({
             items: 1,
             autoplay: true,
@@ -58,7 +58,7 @@
         });
 
         //Activated Testimonial Widget Carousel
-        
+
         $('.widget-testimonial').owlCarousel({
             items: 1,
             autoplay: true,
@@ -68,7 +68,7 @@
         });
 
         //Activated Main Slider
-        
+
         $(".Modern-Slider").slick({
             autoplay: true,
             autoplaySpeed: 10000,
@@ -86,7 +86,7 @@
         });
 
         //Accordion JS
-        
+
         var dd = $('dd');
         dd.filter(':nth-child(n+4)').hide();
         $('dl.accordion').on('click', 'dt', function () {
@@ -104,29 +104,29 @@
         });
 
         //Activated jQuery LightBox PrettyPhoto
-        
+
         $('.light-box').prettyPhoto();
 
         //Activated jQuery CounterUp
-        
+
         $('.counter').counterUp({
             delay: 10,
-            time: 5000
+            time: 3000
         });
 
         //MobileMenu Activated
-        
+
         $('.mainmenu-area nav').meanmenu();
 
 
         // preloader
-        
+
         $(window).on('load', function () {
             $('body').css('overflow-y', 'visible');
             $('#preloader').fadeOut('slow', function () {
                 $(this).remove();
             });
         });
-        
+
 
 }(jQuery));

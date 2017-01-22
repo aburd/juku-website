@@ -262,7 +262,7 @@ $font-dark: $black;
 
   .section-title h2,
   .cta-text > h2 {
-      font-family: 'uni_sansheavy_caps';
+      // font-family: 'uni_sansheavy_caps';
   }
 
   .section-title h2 {
@@ -370,7 +370,7 @@ $font-dark: $black;
 
   .sin-info {
       float: left;
-      width: 211px;
+      width: 214px;
       position: relative;
   }
 
@@ -562,7 +562,7 @@ $font-dark: $black;
 
   .mainmenu-area ul.nav.navbar-nav li ul li a {
       background: #222 none repeat scroll 0 0;
-      color: $font-secondary;
+      color: $white;
       width: 100%;
   }
 
@@ -707,7 +707,7 @@ $font-dark: $black;
   .Modern-Slider .NextArrow {
       background: transparent none repeat scroll 0 0;
       border: 1px solid #fff;
-      color: $font-secondary;
+      color: $white;
       font-family: "icofont";
       font-size: 16px;
       height: 29px;
@@ -923,7 +923,8 @@ $font-dark: $black;
   .sin-fact {
       float: left;
       margin: 0 17px;
-      width: 17%;
+      width: 30%;
+      text-align: center;
   }
 
   .sin-fact > span {
@@ -1433,7 +1434,7 @@ $font-dark: $black;
   /*-----------------------------------------------------------------------------------*/
 
   .our-team-area {
-      background: url("img/team-bg.jpg") no-repeat scroll 0 0 / cover;
+      background: url("img/handshake-bg.jpg") no-repeat scroll 0 0 / cover;
   }
 
   .our-team-area.overlay:after {
@@ -1448,10 +1449,15 @@ $font-dark: $black;
   .member-photo {
       float: left;
       margin-right: 25px;
+      overflow: hidden;
+      max-height: 120px;
+      img {
+        max-width: 100px;
+      }
   }
 
   .member-bio {
-      color: $font-secondary;
+      color: $white;
       font-size: 13px;
       font-weight: 300;
       line-height: 22px;
@@ -1459,7 +1465,7 @@ $font-dark: $black;
   }
 
   .member-bio h2 {
-      color: $font-secondary;
+      color: $white;
       font-size: 18px;
       margin-bottom: 5px;
   }
@@ -1867,8 +1873,8 @@ $font-dark: $black;
       font-weight: 700;
   }
 
-  .single-info.phone-number {
-      width: 210px;
+  .single-info.phone-number, .single-info.social-media, .single-info.address {
+      width: 240px;
       margin-bottom: 50px;
       margin-top: 40px;
   }

@@ -3,7 +3,7 @@ window.marker = null;
 function initialize() {
     var map;
 
-    var newyork = new google.maps.LatLng(40.712784, -74.005941);
+    var newyork = new google.maps.LatLng(35.6896606,139.7068435);
 
     var style = [
         {
@@ -37,7 +37,7 @@ function initialize() {
 
         // SET THE MAP STYLE & ZOOM LEVEL
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        zoom: 12,
+        zoom: 16,
 
         // SET THE BACKGROUND COLOUR
         backgroundColor: "#eeeeee",
@@ -71,7 +71,7 @@ function initialize() {
     marker = new google.maps.Marker({
         position: newyork,
         map: map,
-        icon: 'img/map-marker.png',
+        icon: 'img/flat-marker-yutian.png',
         title: 'New York'
     });
 }

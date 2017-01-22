@@ -218,11 +218,6 @@ a.link-out:hover {
   text-decoration: underline;
 }
 
-.section-title h2,
-.cta-text > h2 {
-  font-family: 'uni_sansheavy_caps';
-}
-
 .section-title h2 {
   font-size: 34px;
   margin: 0;
@@ -319,7 +314,7 @@ a.link-out:hover {
 
 .sin-info {
   float: left;
-  width: 211px;
+  width: 214px;
   position: relative;
 }
 
@@ -505,7 +500,7 @@ ul.nav.navbar-nav li:hover ul {
 
 .mainmenu-area ul.nav.navbar-nav li ul li a {
   background: #222 none repeat scroll 0 0;
-  color: #444;
+  color: #fff;
   width: 100%;
 }
 
@@ -645,7 +640,7 @@ ul.nav.navbar-nav li:hover ul {
 .Modern-Slider .NextArrow {
   background: transparent none repeat scroll 0 0;
   border: 1px solid #fff;
-  color: #444;
+  color: #fff;
   font-family: "icofont";
   font-size: 16px;
   height: 29px;
@@ -853,7 +848,8 @@ blockquote:after {
 .sin-fact {
   float: left;
   margin: 0 17px;
-  width: 17%;
+  width: 30%;
+  text-align: center;
 }
 
 .sin-fact > span {
@@ -1323,7 +1319,7 @@ blockquote:after {
 /*	16.Our Team Area
   /*-----------------------------------------------------------------------------------*/
 .our-team-area {
-  background: url("img/team-bg.jpg") no-repeat scroll 0 0/cover;
+  background: url("img/handshake-bg.jpg") no-repeat scroll 0 0/cover;
 }
 
 .our-team-area.overlay:after {
@@ -1338,10 +1334,16 @@ blockquote:after {
 .member-photo {
   float: left;
   margin-right: 25px;
+  overflow: hidden;
+  max-height: 120px;
+}
+
+.member-photo img {
+  max-width: 100px;
 }
 
 .member-bio {
-  color: #444;
+  color: #fff;
   font-size: 13px;
   font-weight: 300;
   line-height: 22px;
@@ -1349,7 +1351,7 @@ blockquote:after {
 }
 
 .member-bio h2 {
-  color: #444;
+  color: #fff;
   font-size: 18px;
   margin-bottom: 5px;
 }
@@ -1740,8 +1742,8 @@ a.pricing-btn {
   font-weight: 700;
 }
 
-.single-info.phone-number {
-  width: 210px;
+.single-info.phone-number, .single-info.social-media, .single-info.address {
+  width: 240px;
   margin-bottom: 50px;
   margin-top: 40px;
 }
