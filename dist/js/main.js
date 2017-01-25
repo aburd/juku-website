@@ -118,6 +118,9 @@
 
         $('.mainmenu-area nav').meanmenu();
 
+        // WOW.js
+        new WOW().init();
+
 
         // preloader
 
