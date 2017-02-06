@@ -72,18 +72,28 @@
         $(".Modern-Slider").slick({
             autoplay: true,
             autoplaySpeed: 10000,
-            speed: 600,
+            centerMode: true,
+            cssEase: 'linear',
+            dots: true,
+            fade: true,
+            mobileFirst: true,
+            pauseOnHover: false,
+            pauseOnDotsHover: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            pauseOnHover: false,
-            dots: true,
-            pauseOnDotsHover: true,
-            cssEase: 'linear',
-            fade: true,
+            speed: 600,
             //   draggable: true,
             prevArrow: '<button class="PrevArrow"></button>',
             nextArrow: '<button class="NextArrow"></button>',
         });
+
+        // Navbar active/inactive
+
+        $('.navigation-menus li a').click(function(a) {
+          var li = a.target;
+          $('.navigation-menus li').removeClass('active');
+          $(li).parent('li').addClass('active');
+        })
 
         //Accordion JS
 

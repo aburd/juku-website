@@ -1,8 +1,3 @@
-// colors
-// den yellow: ffd801
-// orig yellow: F8CF27
-// dark yellow: ebc219
-// red: ff3f00
 $primary: #ffd801;
 $secondary: #ff3f00;
 $old-yellow: #F8CF27;
@@ -15,21 +10,6 @@ $font-primary: $gray;
 $font-secondary: $black;
 $font-dark: $black;
 
-// typeface
-// $body-font: 'helvetica-neue', helvetica, cambria, sans-serif
-// $header-font: serif
-
-// typography
-// $body-fontsize: 16px
-// $header1: 2.5rem
-// $header2: 2rem
-// $header3: 1.7rem
-
-// gutters
-// $gutter-width: 15px
-// $gutter-width-lg: $gutter-width * 2
-// $gutter-section: 50px
-
 .sticky {
   position: fixed;
   top: 0;
@@ -38,15 +18,8 @@ $font-dark: $black;
 }
 
 
-  /*-------------------------------------------------------------------------------------
-  Theme Name:	Business
-  Theme URI: 	http://themeextra.com
-  Version:	1.0
-  Author: ThemeExtra
-  -------------------------------------------------------------------------------------*/
 
-
-  /*-------------------------------------------------------------------------------------
+  /*------------------------------------------------------------------------------------
   [TABLE OF CONTENTS]
 
   	00. RESET
@@ -619,7 +592,7 @@ $font-dark: $black;
       font-size: 60px;
       font-weight: 700;
       line-height: 60px;
-      text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.17);
+      text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.77);
       text-transform: uppercase;
       margin: 0 0 20px 0;
   }
@@ -643,7 +616,7 @@ $font-dark: $black;
   }
 
   .img-fill img {
-      height: 100%;
+      // height: 100%;
       min-width: 100%;
       position: relative;
       display: inline-block;
@@ -660,6 +633,19 @@ $font-dark: $black;
       float: left/* If RTL Make This Right */
       ;
       padding: 0;
+  }
+  @media screen and (max-width: 767px) {
+    .img-fill img {
+      height: 400px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .slick-slide
+    {
+      .img-fill img {
+        left: -163px;
+      }
+    }
   }
 
   .Modern-Slider {
@@ -691,6 +677,10 @@ $font-dark: $black;
 
   .tbc {
       padding-top: 195px;
+
+      p {
+        text-shadow: 2px 2px 3px rgba(#000, 0.7);
+      }
   }
 
   .Modern-Slider .NextArrow {
@@ -816,7 +806,7 @@ $font-dark: $black;
   .slick-slide {
       display: none;
       float: left; /* If RTL Make This Right */
-      height: 785;
+      height: 785px;
       min-height: 1px
   }
 
@@ -2378,6 +2368,17 @@ $font-dark: $black;
   a.pricing-btn {
       background-color: $primary;    /* -- Your primary color code here -- */
   }
+  .container .mean-container .mean-nav ul li a.mean-expand {
+    border-left: 1px solid rgba($black, 0.4)!important;
+    border-bottom: 1px solid rgba($black, 0.2)!important;
+  }
+  .mean-container a.meanmenu-reveal {color: $black;}
+  .mean-container .mean-nav ul li a {
+    color: $black;
+    border-top: 1px solid rgba($black, 0.5);
+  }
+  .mean-container a.meanmenu-reveal span {background: $black;}
+
 
 
   /* Jotil Colors*/

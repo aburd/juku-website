@@ -6,13 +6,7 @@
   right: 0;
 }
 
-/*-------------------------------------------------------------------------------------
-  Theme Name:	Business
-  Theme URI: 	http://themeextra.com
-  Version:	1.0
-  Author: ThemeExtra
-  -------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------
+/*------------------------------------------------------------------------------------
   [TABLE OF CONTENTS]
 
   	00. RESET
@@ -553,7 +547,7 @@ ul.nav.navbar-nav li:hover ul {
   font-size: 60px;
   font-weight: 700;
   line-height: 60px;
-  text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.17);
+  text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.77);
   text-transform: uppercase;
   margin: 0 0 20px 0;
 }
@@ -577,7 +571,6 @@ ul.nav.navbar-nav li:hover ul {
 }
 
 .img-fill img {
-  height: 100%;
   min-width: 100%;
   position: relative;
   display: inline-block;
@@ -593,6 +586,18 @@ ul.nav.navbar-nav li:hover ul {
 .slick-slide {
   float: left;
   padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .img-fill img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .slick-slide .img-fill img {
+    left: -163px;
+  }
 }
 
 .Modern-Slider {
@@ -624,6 +629,10 @@ ul.nav.navbar-nav li:hover ul {
 
 .tbc {
   padding-top: 195px;
+}
+
+.tbc p {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
 .Modern-Slider .NextArrow {
@@ -749,7 +758,7 @@ ul.nav.navbar-nav li:hover ul {
   display: none;
   float: left;
   /* If RTL Make This Right */
-  height: 785;
+  height: 785px;
   min-height: 1px;
 }
 
@@ -2211,6 +2220,24 @@ ul.degins li::after,
 a.pricing-btn {
   background-color: #ffd801;
   /* -- Your primary color code here -- */
+}
+
+.container .mean-container .mean-nav ul li a.mean-expand {
+  border-left: 1px solid rgba(68, 68, 68, 0.4) !important;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.2) !important;
+}
+
+.mean-container a.meanmenu-reveal {
+  color: #444;
+}
+
+.mean-container .mean-nav ul li a {
+  color: #444;
+  border-top: 1px solid rgba(68, 68, 68, 0.5);
+}
+
+.mean-container a.meanmenu-reveal span {
+  background: #444;
 }
 
 /* Jotil Colors*/

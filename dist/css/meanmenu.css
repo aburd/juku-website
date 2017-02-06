@@ -87,8 +87,7 @@ a.meanmenu-reveal {
 .mean-container .mean-nav ul li li a {
 	width: 80%;
 	padding: 1em 10%;
-	border-top: 1px solid #f1f1f1;
-	border-top: 1px solid rgba(255,255,255,0.25);
+	border-top: 1px solid rgba(68,68,68,0.25);
 	opacity: 0.75;
 	filter: alpha(opacity=75);
 	text-shadow: none !important;
@@ -133,8 +132,8 @@ a.meanmenu-reveal {
 	font-weight: 700;
 	background: rgba(255,255,255,0.1);
 	border: none !important;
-	border-left: 1px solid rgba(255,255,255,0.4) !important;
-	border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+	border-left: 1px solid rgba(68,68,68,0.4) !important;
+	border-bottom: 1px solid rgba(68,68,68,0.2) !important;
 }
 
 .mean-container .mean-nav ul li a.mean-expand:hover {
